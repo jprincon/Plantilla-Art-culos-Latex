@@ -1,0 +1,192 @@
+%%Paquete para cartillas de software educativo GEDES 
+%%Julián Andrés Rincón Penagos
+%%Abril del 2015
+
+\NeedsTeXFormat{LaTeX2e}
+\def\fileversion{2.0}
+\def\filedate{2022/05/07}
+
+\ProvidesPackage{Plantilla}
+
+\usepackage{bookman}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{geometry}
+\usepackage{marginnote}
+\usepackage{fullpage}
+\usepackage{minitoc}
+\spanishdecimal{.}
+\usepackage{color}
+\geometry{verbose,tmargin=3cm,bmargin=3cm,lmargin=3cm,rmargin=3cm,headheight=1cm,headsep=1cm,footskip=1cm,heightrounded, marginparwidth=5cm, marginparsep=1cm}
+
+%Definir un tamaño de letra mas grande
+\def\letra#1#2{
+\fontfamily{pbk}
+\fontsize{#1}{1.2#1} 
+\selectfont #2}
+
+\usepackage{color}
+\definecolor{ColorClaro}{rgb}{1,1,1}
+\definecolor{ColorOscuro}{rgb}{0.45,0.45,0.45}
+\definecolor{ColorNegro}{rgb}{0,0,0}
+         
+\def\dTitulo{}
+\def\dAutores{}
+\def\dUniversidad{}
+\def\dGrupo{}
+\def\dCiudad{}
+\def\dFecha{}
+\def\dRevista{}
+\def\dVolumen{}
+\def\dNumero{}
+\def\dISSN{}
+\def\dAutoresCorto{}
+
+%comando para hacer una caja ##################################################
+\newcommand{\CajaColor}[2]
+{{\fcolorbox{#2}{#2}{\makebox[0.88\paperwidth][l]{#1}}}}
+
+%comando para hacer una caja ##################################################
+\newcommand{\CajaColorB}[2]
+{{\fcolorbox{#2}{#2}{\makebox[0.98\columnwidth][l]{#1}}}}
+
+\def\ReglaAntes{\textcolor{ColorOscuro}{{\titlerule[3pt]}}{ \vspace{1pt}}\textcolor{ColorOscuro}{{\titlerule[1pt]}} {\vspace{1pt}}}
+\def\ReglaDespues{{\vspace{1pt}} \textcolor{ColorOscuro}{{\titlerule[1pt]}}}
+
+%Definir un portada ==============================================================
+\newcommand{\Titulo}[1]
+{
+	\def\dTitulo{#1}
+}
+
+\newcommand{\Autores}[1]
+{
+	\def\dAutores{#1}
+}
+
+\newcommand{\AutoresCorto}[1]
+{
+	\def\dAutoresCorto{#1}
+}
+
+\newcommand{\Universidad}[1]
+{
+	\def\dUniversidad{#1}
+}
+
+\newcommand{\Grupo}[1]
+{
+	\def\dGrupo{#1}
+}
+
+\newcommand{\Ciudad}[1]
+{
+	\def\dCiudad{#1}
+}
+
+\newcommand{\Fecha}[1]
+{
+	\def\dFecha{#1}
+}
+
+\newcommand{\Revista}[4]
+{
+	\def\dRevista{#1}
+	\def\dVolumen{#2}
+	\def\dNumero{#3}
+	\def\dISSN{#4}
+}
+
+\newcommand{\GenerarPortada}{
+	\begin{center}
+	\textbf{\LARGE{} \textcolor{ColorOscuro}{\dTitulo}}{\LARGE\par}
+	\par\end{center}
+
+	\begin{center}
+	\emph{\dAutores}{\Large\par}
+	\par\end{center}
+
+	\begin{center}
+	{\dFecha}{\large\par}
+	\par\end{center}
+	
+	\begin{center}
+	\emph{\dRevista ~ \dVolumen(\dNumero) - ISSN \dISSN}{\Large\par}
+	\par\end{center}
+}
+
+%Codigo para secciones #############################################################
+\usepackage{titlesec}
+
+%Codigo para secciones #############################################################
+\usepackage{titlesec}
+\global\def\TipoCap{}
+
+%titulos  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+\titleformat
+{\chapter} %Comando
+[display]       %Tipo
+{ \filleft \sffamily \bfseries \Huge \color{ColorOscuro} \thispagestyle{fancy}} %Formato 
+{
+	\textcolor{ColorOscuro}{\letra{15mm}{Capítulo }} \textcolor{ColorOscuro}{\letra{5cm}{\thechapter}}
+}
+{1pt} %Separación
+{ \ReglaAntes  }
+[ \small \sffamily\mdseries \color{ColorNegro}]
+
+%subtitulos segundo nivel $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+\titleformat
+{\section}
+[hang]
+{\filright  \sffamily \Large \bfseries }
+{\fcolorbox{ColorOscuro}{ColorOscuro}{\textcolor{ColorClaro}{\letra{8mm}{\thesection}}} }
+{5pt}
+{\color{ColorOscuro} \LARGE}
+[\textcolor{ColorOscuro}{{\titlerule[2pt]}}]
+
+%subtitulos tercer  nivel $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+\titleformat
+{\subsection}
+[hang]
+{\filright \sffamily  \bfseries \large}
+{\fcolorbox{ColorOscuro}{ColorOscuro}{\textcolor{ColorClaro}{\letra{7mm}{\thesubsection}}}}
+{5pt}
+{\color{ColorOscuro}}
+[\textcolor{ColorOscuro}{{\titlerule[2pt]}}]
+
+%subtitulos cuarto  nivel $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+\titleformat
+{\subsubsection}
+[hang]
+{ \filright \normalfont  \sffamily  \bfseries \normalsize}
+{\fcolorbox{ColorOscuro}{ColorOscuro}{\textcolor{ColorClaro}{\letra{5mm}{ \thesubsubsection}}}}
+{5pt}
+{\color{ColorOscuro}}
+[\textcolor{ColorOscuro}{{\titlerule[2pt]}}]
+
+%Código para no partir palabras
+\tolerance = 10000
+\pretolerance = 10000
+\setlength{\parindent}{0pt}
+
+%Encabezados y Pies $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % borrar todos los ajustes
+
+%Encabezado y pies de páginas pares #################################### 
+\fancyhead[LE]{\textcolor{ColorOscuro}{\letra{3mm}{\dRevista \hfill \dUniversidad  ~ (\dFecha)}}  \\ \CajaColorB{\textcolor{ColorOscuro}{Plantilla: Julián Rincón} \hfill \textcolor{ColorClaro}{\letra{3mm}{\dGrupo}}}{ColorOscuro} }
+
+\fancyfoot[RE]{\CajaColorB{\textcolor{ColorClaro}{\letra{3mm}{\dAutoresCorto}} \hfill \textcolor{ColorClaro}{\letra{4mm}{pág \thepage}}}{ColorOscuro} \textcolor{ColorOscuro}{\letra{3mm}{\dTitulo}}}
+
+
+%Encabezado y pie páginas impares ####################################
+\fancyhead[RO]{\textcolor{ColorOscuro}{\letra{3mm}{\dRevista \hfill \dUniversidad ~ (\dFecha)}}  \\ \CajaColorB{\textcolor{ColorClaro}{} \hfill \textcolor{ColorClaro}{\letra{3mm}{\dGrupo}}}{ColorOscuro} \textcolor{ColorOscuro}{\letra{3mm}{\dAutoresCorto}} \hfill \textcolor{ColorClaro}{.} }
+
+\fancyfoot[RO]{\CajaColorB{\textcolor{ColorOscuro}{Plantilla: Julián Rincón} \hfill \textcolor{ColorClaro}{\letra{4mm}{pág \thepage}}}{ColorOscuro} \textcolor{ColorOscuro}{\letra{3mm}{\dTitulo}}}
+
+%Paquete para el código fuente de pascal
+\usepackage{listings}
+\lstloadlanguages{Pascal}
+
+\lstset{language=Pascal,tabsize=2, numbers=left, numberstyle=\tiny, stepnumber=1, numbersep=5pt, frame=single, showstringspaces=false}

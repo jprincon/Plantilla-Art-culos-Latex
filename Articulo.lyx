@@ -1,0 +1,794 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass Plantilla
+\begin_preamble
+\usepackage{Plantilla}
+\end_preamble
+\use_default_options true
+\begin_modules
+multicol
+\end_modules
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex8
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 0
+\use_package mhchem 1
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine biblatex-natbib
+\cite_engine_type authoryear
+\biblio_style plain
+\biblatex_bibstyle authoryear
+\biblatex_citestyle authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 18.2cm
+\paperheight 32.5cm
+\leftmargin 3cm
+\topmargin 5cm
+\rightmargin 3cm
+\bottommargin 3cm
+\secnumdepth 5
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\bullet 0 2 1 -1
+\bullet 1 2 14 -1
+\bullet 2 2 16 -1
+\bullet 3 2 34 -1
+\tracking_changes false
+\output_changes false
+\html_math_output 3
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Titulo
+Título del Artículo
+\end_layout
+
+\begin_layout Autores
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="1">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="7cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Julián Andrés Rincón Penagos
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Claudia Milena Tavera Montes
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Joel Santiago Rincón Tavera
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ian Esteban Rincón Tavera
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout AutoresCorto
+Julián Rincón, Milena Tavera, Joel y Esteban Rincón
+\end_layout
+
+\begin_layout Grupo
+Grupo de Estudio y Desarrollo de Software (GEDES)
+\end_layout
+
+\begin_layout Universidad
+Universidad del Quindío
+\end_layout
+
+\begin_layout Ciudad
+Armenia, Quindío
+\end_layout
+
+\begin_layout Fecha
+2022
+\end_layout
+
+\begin_layout Revista
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Inteligencia Artificial
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+14
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+1235-456788-123456
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout GenerarPortada
+
+\end_layout
+
+\begin_layout Section*
+Resumen
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, 
+\color blue
+consectet
+\color inherit
+ur adipiscing elit.
+ Duis et est a lacus lacinia facilisis non et massa.
+ Proin bibendum varius tincidunt.
+ Suspendisse nibh mauris, laoreet eu vehicula ut, dignissim id nibh.
+ Etiam quis ante in lorem laoreet facilisis.
+ Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+ ac turpis egestas.
+ Curabitur bibendum leo ut porttitor sollicitudin.
+ Praesent scelerisque, sem vitae maximus ultricies, massa nunc porttitor
+ eros, eget consectetur lorem sem vel justo.
+\end_layout
+
+\begin_layout Subsection*
+Palabras Clave
+\end_layout
+
+\begin_layout Standard
+eget consectetur lorem sem vel justo
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+stepcounter{chapter}{0}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introducción
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, 
+\color blue
+consectet
+\color inherit
+ur adipiscing elit.
+ Duis et est a lacus lacinia facilisis non et massa.
+ Proin bibendum varius tincidunt.
+ Suspendisse nibh mauris, laoreet eu vehicula ut, dignissim id nibh.
+ Etiam quis ante in lorem laoreet facilisis.
+ Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+ ac turpis egestas.
+ Curabitur bibendum leo ut porttitor sollicitudin.
+ Praesent scelerisque, sem vitae maximus ultricies, massa nunc porttitor
+ eros, eget consectetur lorem sem vel justo.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/imagen.jpg
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Título de la Imagen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Quisque ut mollis risus.
+ Integer rutrum nibh nec sagittis tincidunt.
+ Fusce tempus, turpis id sodales varius, diam urna tincidunt turpis, sit
+ amet ultricies libero purus in sem.
+ Quisque sed risus eget leo blandit dictum vel quis nulla.
+ Vestibulum aliquet, eros ac vulputate vehicula, purus lacus tincidunt quam,
+ eget ullamcorper lectus enim ac lorem.
+ Suspendisse non pharetra est.
+ Etiam ut leo eget odio semper placerat ut id lorem.
+ Integer dignissim ornare arcu, in porttitor tellus gravida at.
+\end_layout
+
+\begin_layout Section
+Materiales y Métodos
+\end_layout
+
+\begin_layout Standard
+Suspendisse posuere congue fermentum.
+ Sed rutrum dictum velit, non aliquet purus eleifend non.
+ Pellentesque ac nisi ex.
+ Mauris euismod, nisl non porta bibendum, urna ligula viverra urna, eu iaculis
+ ligula lacus vitae enim.
+ Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+ ac turpis egestas.
+ Maecenas non nibh augue.
+ Ut feugiat dignissim justo eget viverra.
+ Nulla mollis orci at tincidunt malesuada.
+ Nunc faucibus quis est a pretium.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Praesent euismod luctus ex a bibendum.
+ Nunc posuere malesuada eros non interdum.
+ Sed posuere vulputate dolor feugiat imperdiet.
+ Pellentesque augue magna, tristique a augue in, luctus vulputate nisi.
+ Ut est elit, lobortis nec sodales sit amet, bibendum ut purus.
+ Mauris metus magna, fringilla at efficitur quis, pretium vitae quam.
+ Vestibulum sapien ex, varius quis odio a, tincidunt tempus neque.
+ Sed commodo ante ac odio ultricies, sollicitudin egestas orci tempor.
+ Quisque at ultricies turpis.
+ Aenean tristique sapien nisl, eu consectetur lacus euismod id.
+ Vivamus accumsan convallis finibus.
+ Duis iaculis sit amet ipsum nec porttitor.
+ Nulla erat sapien, blandit non sodales a, ultrices id tortor.
+ Proin tempor egestas pulvinar.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="2">
+<features islongtable="true" longtabularalignment="center">
+<column alignment="left" valignment="top" width="5cm">
+<column alignment="left" valignment="top" width="9cm">
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Referencia
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+
+\series bold
+Título:
+\series default
+ Cálculo diferencial e integral de funciones de una variable.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Autor:
+\series default
+ Francisco Javier Pérez Gonzales
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Fecha:
+\series default
+ 2008
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Editorial:
+\series default
+ Creative Commons.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Contenidos que preceden al tema de función polinómica
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+Axiomas de los números reales.
+\end_layout
+
+\begin_layout Itemize
+Desigualdades y valor absoluto.
+\end_layout
+
+\begin_layout Itemize
+Principio de inducción matemática.
+\end_layout
+
+\begin_layout Itemize
+Funciones reales.
+\end_layout
+
+\begin_layout Itemize
+Estudio descriptivo de las funciones elementales.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Contenidos posterioores a el tema de función polinómica
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Itemize
+Raíces de un número real.
+\end_layout
+
+\begin_layout Itemize
+Potencias de un número real.
+\end_layout
+
+\begin_layout Itemize
+Potencias racionales.
+\end_layout
+
+\begin_layout Itemize
+Logaritmos.
+\end_layout
+
+\begin_layout Itemize
+Exponenciales.
+\end_layout
+
+\begin_layout Itemize
+Función potencia de exponente real α.
+\end_layout
+
+\begin_layout Itemize
+Funciones trigonométricas.
+\end_layout
+
+\begin_layout Itemize
+Las funciones hiperbólicas.
+\end_layout
+
+\begin_layout Itemize
+Concepto de función.
+\end_layout
+
+\begin_layout Itemize
+Números complejos.
+ Exponencial compleja.
+\end_layout
+
+\begin_layout Itemize
+Funciones continúas y limite funcional.
+\end_layout
+
+\begin_layout Itemize
+Números y límites.
+ El infinito matemático.
+\end_layout
+
+\begin_layout Itemize
+Derivadas.
+\end_layout
+
+\begin_layout Itemize
+Sucesiones.
+\end_layout
+
+\begin_layout Itemize
+Integral de Riemann.
+\end_layout
+
+\begin_layout Itemize
+Series numéricas.
+\end_layout
+
+\begin_layout Itemize
+Sucesiones y series de funciones.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+¿Cómo se enseña la función polinómica?
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Para el tema de funciones polinómicas, inicia con una introducción donde
+ se explica la forma de una función polinómica, seguido se explica que forma
+ tiene una función racional.
+ (pag 39).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+Aenean lacinia ligula at nunc volutpat ultrices.
+ Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+ ac turpis egestas.
+ Nulla eu ligula vehicula, sodales lorem ac, efficitur libero.
+ In mattis quam ac eleifend varius.
+ Donec sed volutpat mi.
+ In scelerisque vitae magna vel venenatis.
+ Nulla facilisi.
+\end_layout
+
+\begin_layout Section
+Resultados
+\end_layout
+
+\begin_layout Standard
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+ Nulla sed massa nec felis placerat pharetra quis sed diam.
+ Pellentesque tincidunt, erat sit amet semper mollis, lacus nunc iaculis
+ sem, quis suscipit tellus purus in ligula.
+ Cras tempus libero a semper efficitur.
+ Proin nec finibus enim, in suscipit arcu.
+ Ut venenatis eros sapien, in varius velit pharetra et.
+ Pellentesque nulla nulla, sagittis eget pharetra sed, eleifend sit amet
+ arcu.
+ Curabitur euismod massa gravida nisi dapibus tristique.
+ Cras ac lobortis lorem.
+ Fusce vitae ante erat.
+ In in metus faucibus, efficitur lacus et, pretium sapien.
+ Nunc elementum elit facilisis cursus ornare.
+ Cras tincidunt malesuada est, et pellentesque magna facilisis eu.
+ Phasellus maximus arcu quis ipsum lobortis, aliquam tincidunt libero malesuada.
+ Sed placerat viverra leo nec tristique.
+ Proin non blandit sem.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Praesent sit amet velit eget ipsum eleifend pretium.
+ Praesent imperdiet orci ut finibus pellentesque.
+ Donec convallis, quam vel maximus rutrum, purus lacus euismod sem, at feugiat
+ ante arcu et massa.
+ Mauris rutrum eu lectus et aliquam.
+ Donec vestibulum, urna ac maximus pulvinar, justo justo sodales enim, quis
+ pretium enim sem ac neque.
+ Donec faucibus tincidunt leo a blandit.
+ Etiam vestibulum lectus vitae sem eleifend tincidunt.
+ Aenean eget lobortis sem.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Imagenes/grafica_estadistica.png
+	width 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Título de la Imagen
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames
+ ac turpis egestas.
+ Nunc egestas nunc leo.
+ Donec vestibulum id dui eu euismod.
+ Mauris fringilla tincidunt libero sit amet porttitor.
+ Pellentesque at faucibus odio.
+ Maecenas ultrices ultrices rutrum.
+ Sed aliquet facilisis accumsan.
+\end_layout
+
+\begin_layout Section
+Discusión
+\end_layout
+
+\begin_layout Standard
+Sed pellentesque eu massa non feugiat.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rincon_2015"
+literal "false"
+
+\end_inset
+
+ Morbi elementum semper imperdiet.
+ Fusce enim ante, dignissim non neque in, fringilla eleifend quam.
+ Aenean placerat est ut accumsan hendrerit.
+ Phasellus nibh urna, rutrum sed nunc ac, sollicitudin bibendum enim.
+ Ut pretium tincidunt dolor sit amet euismod.
+ Etiam pellentesque felis vitae placerat maximus.
+ Vivamus suscipit facilisis ligula quis auctor.
+ Suspendisse id purus malesuada, dapibus erat et, aliquet eros.
+ Curabitur porta dapibus nunc, eu imperdiet sapien efficitur at.
+ Maecenas ut nunc ligula.
+ Nullam ut mollis lectus, ac bibendum neque.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Morbi lacinia, leo vitae faucibus luctus, turpis enim dapibus est, et ultricies
+ dolor justo vel elit.
+ Nunc ut rutrum neque.
+ Nullam porttitor ante id lorem gravida, et condimentum massa congue.
+ Nulla facilisi.
+ Nunc vel nunc at magna aliquet lobortis.
+ Vestibulum aliquet tincidunt eleifend.
+ Cras auctor diam quis auctor vestibulum.
+ Donec iaculis elit sed est ornare, vitae ultricies quam molestie.
+ Ut fringilla, mauris in porta congue, ex tortor suscipit dui, in facilisis
+ sapien dui vel odio.
+ Praesent posuere lacus et condimentum vulputate.
+ Ut sit amet justo at tellus vestibulum gravida in et ante.
+ Nulla convallis tincidunt diam, dapibus egestas augue pharetra vitae.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+renewcommand{
+\backslash
+bibname}{Referencias}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "Bibliografia"
+options "plain"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document
